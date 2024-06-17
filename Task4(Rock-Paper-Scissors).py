@@ -15,7 +15,7 @@ def Start(your_choice):
     Options = ["rock", "paper", "scissors"]
     computer_choice=random.choice(Options)
     print("Your option:",your_choice)
-    print("Computers choice:",computer_choice)
+    print("Computer's choice:",computer_choice)
     play(your_choice,computer_choice)
 
 #opening statement:-
